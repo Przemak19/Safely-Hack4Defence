@@ -1,0 +1,47 @@
+# Visual Studio
+.vs/
+**/.vs/
+*.suo
+*.user
+*.userosscache
+
+# Gradle files
+.gradle/
+.classpath
+.project
+.settings/
+bin/
+
+fe/.env
+
+# Build output
+build/
+.sonar
+target/
+bw-outputs/
+.scannerwork
+
+node_modules
+
+# IntelliJ
+.idea
+*.iml
+
+# MSBuild
+obj/
+
+# Node
+npm-debug.log
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# vi
+*~
+
+# General
+log/
+*.log

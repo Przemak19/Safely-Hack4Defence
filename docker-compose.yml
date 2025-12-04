@@ -1,0 +1,36 @@
+version: "3.8"
+
+services:
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: app-sql
+    restart: always
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Your_strong_password123
+      - MSSQL_PID=Express
+    ports:
+      - "1533:1433"
+    volumes:
+      - app-db-data:/var/opt/mssql
+
+  api:
+    build:
+      context: ./BE
+      dockerfile: App.Api/Dockerfile
+    container_name: app-api
+    depends_on:
+      - db
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ConnectionStrings__DefaultConnection: "Server=db,1433;Database=App;User Id=sa;Password=Your_strong_password123;Encrypt=False;TrustServerCertificate=True;"
+      PhotoStorage__RootPath: "/app/storage/photos"
+      Cors__FrontendUrl: "http://localhost:5173"
+    ports:
+      - "5000:8080"
+    volumes:
+      - storage:/app/storage
+
+volumes:
+  app-db-data:
+  storage:
