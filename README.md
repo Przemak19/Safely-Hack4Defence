@@ -3,7 +3,7 @@
 <!-- HEADER STYLE: CLASSIC -->
 <div align="center">
 
-<img src="Safely-Hack4Defence.png" width="35%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
+<img src="safely-hack4defence.png" width="35%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
 
 # SAFELY #HACK4DEFENCE
 <em>Defend Smarter, Respond Faster, Save Lives</em>
