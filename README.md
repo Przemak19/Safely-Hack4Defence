@@ -116,3 +116,9 @@ Build Safely-Hack4Defence from the source and install dependencies:
 <div align="left"><a href="#top">⬆ Return</a></div>
 
 ---
+
+## Application View
+
+<h4><strong>View of application screens</strong></h4>
+<img src="assets/goma_page.png" width="35%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
+
