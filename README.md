@@ -19,6 +19,7 @@
     - [Installation](#installation)
 - [Project Structure](#project-structure)
 - [Roadmap](#roadmap)
+- [Application View](#application-view)
 
 ---
 
@@ -120,5 +121,11 @@ Build Safely-Hack4Defence from the source and install dependencies:
 ## Application View
 
 <h4><strong>View of application screens</strong></h4>
-<img src="assets/goma_page.png" width="35%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
-
+<img src="/assets/home_page.png" width="60%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
+<img src="/assets/num_of_services.png" width="60%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
+<img src="/assets/new_event.png" width="60%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
+<img src="/assets/info.png" width="60%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
+<img src="/assets/login.png" width="60%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
+<img src="/assets/list_of_events.png" width="60%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
+<img src="/assets/add_new_operator.png" width="60%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
+<img src="/assets/details.png" width="60%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
