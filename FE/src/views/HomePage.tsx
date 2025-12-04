@@ -154,7 +154,7 @@ export const HomePage = () => {
                                     </Typography>
 
                                     <Typography variant="body2" color="text.secondary">
-                                        {config.steps.length} kroków postępowania.
+                                        {config.steps.length} kroki postępowania.
                                     </Typography>
 
                                 </CardContent>
